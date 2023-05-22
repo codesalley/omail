@@ -10,7 +10,7 @@ module Omail
     def copy_initializer
       say "copying initializer", :green
       template("omail.rb", "config/initializers/omail.rb")
-      append_to_file ".gitignore", 'config/initializers/omail.rb\n'
+      append_to_file ".gitignore", "config/initializers/omail.rb\n"
     end
   end
 end
