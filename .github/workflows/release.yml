@@ -1,4 +1,4 @@
-name: Release Gem
+name: Release
 
 on:
   release:
@@ -14,13 +14,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Install Depedecies
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.6.0
-          
+
       - name: Publish to GPR
         run: |
           mkdir -p $HOME/.gem
