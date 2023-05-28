@@ -3,20 +3,21 @@ name: Release
 on:
   release:
     types:
-      - created
+      - published
 
 jobs:
-  release:
+  build:
+    name: Build + Publish
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: Install Depedecies
+      - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.6.0
