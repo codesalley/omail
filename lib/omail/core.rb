@@ -21,7 +21,7 @@ module Omail
 
     def base_directory(appname, filename)
       default_directory = Dir.home
-      app_directory = File.join(default_directory, "mailbox", appname)
+      app_directory = File.join(default_directory, ".mailbox", appname)
 
       FileUtils.mkdir_p(app_directory) unless Dir.exist?(app_directory)
 
