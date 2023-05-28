@@ -24,7 +24,7 @@ this adds `config/initializers/omail.rb` and `config/initializers/omail.rb` to `
 
 After install gem, download a client desktop appfor your operating system 
 
-[[ Macos ]](https://github.com/codesalley/omail/blob/main/client/macos/Omail%20Client.dmg)
+[[ Macos ]](https://github.com/codesalley/omail/releases/download/v0.4.3/Omail.Client.dmg)
 
 [[Windows]](#) 
 
