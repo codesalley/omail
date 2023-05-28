@@ -1,6 +1,6 @@
 # Omail
 
-Rails development mail intercepter. This gem intercept all your emails and save them in a dir for previewing. No need to get confirmation emails sent out for confirmation in development. Mails can be access easily with a desktop client
+Rails development mail intercepter. This gem intercept all your emails and save them in a dir for previewing. No need to get confirmation emails sent out for a confirmation in development. Mails can be accessed easily with a desktop client
 
 
 ## Installation
