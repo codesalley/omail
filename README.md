@@ -1,8 +1,7 @@
 # Omail
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/omail`. To experiment with that code, run `bin/console` for an interactive prompt.
+Rails development mail intercepter. This gem intercept all your emails and save them in a dir for previewing. No need to get confirmation emails sent out for confirmation in development. Mails can be access easily with a desktop client
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -13,6 +12,13 @@ Install the gem and add to the application's Gemfile by executing:
 If bundler is not being used to manage dependencies, install the gem by executing:
 
     $ gem install omail
+    
+and `initialize` using 
+
+
+    $ rails generator omail:install
+
+this adds `config/initializers/omail.rb` and `config/initializers/omail.rb` to `.gitignore`
 
 ## Usage
 
@@ -26,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/omail.
+Bug reports and pull requests are welcome on GitHub at https://github.com/codesalley/omail.
 
 ## License
 
