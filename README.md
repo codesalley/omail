@@ -12,7 +12,7 @@ Install the gem and add to the application's Gemfile by executing:
 If bundler is not being used to manage dependencies, install the gem by executing:
 
     $ gem install omail
-    
+
 and `initialize` using 
 
 
@@ -22,7 +22,14 @@ this adds `config/initializers/omail.rb` and `config/initializers/omail.rb` to `
 
 ## Usage
 
-TODO: Write usage instructions here
+After install gem, download a client desktop appfor your operating system 
+
+[[ Macos ]](https://github.com/codesalley/omail/blob/main/client/macos/Omail%20Client.dmg)
+
+[[Windows]](#) 
+
+[[Linux]](#)
+
 
 ## Development
 
