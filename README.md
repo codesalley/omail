@@ -11,8 +11,11 @@ Install the gem and add to the application's Gemfile by executing:
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install omail
-
+```ruby
+  group :development do
+    gem "omail"
+  end
+```
 and `initialize` using 
 
 
